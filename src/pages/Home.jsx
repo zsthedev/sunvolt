@@ -20,7 +20,7 @@ const Home = () => {
               to power your world efficiently and sustainably.
             </p>
 
-            <Link className="w-[180px] h-[50px] border px-8 py-4 rounded-full font-poppins flex justify-center items-center hover:bg-blue hover:border-none hover:text-white hover:ease-linear hover:duration-300">
+            <Link to={"/products"} className="w-[180px] h-[50px] border px-8 py-4 rounded-full font-poppins flex justify-center items-center hover:bg-blue hover:border-none hover:text-white hover:ease-linear hover:duration-300">
               View Products
             </Link>
           </div>

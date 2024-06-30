@@ -9,15 +9,15 @@ const Home = () => {
       <div className="p-8">
         <div className="mt-20 text-container flex justify-between items-center">
           <h1 className="text-6xl font-poppins text-black w-[75%] leading-tight">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae qui
-            non voluptate quaerat eligendi harum?
+            Empower your home with sustainable energy solutions. Harness the
+            power of the sun with our cutting-edge solar panels. 
           </h1>
 
           <div className="w-[25%] flex flex-col">
             <p className="text-lg font-poppins text-dark_gray mb-5 font-[400]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              corporis, atque tenetur pariatur facilis culpa quasi sed unde!
-              Consequatur, corporis?
+              Welcome to Sunvolt power solutions Harnessing Clean Energy for a
+              Sustainable Future. Explore our cutting-edge solar panels designed
+              to power your world efficiently and sustainably
             </p>
 
             <Link className="w-[180px] h-[50px] border px-8 py-4 rounded-full font-poppins flex justify-center items-center hover:bg-blue hover:border-none hover:text-white hover:ease-linear hover:duration-300">

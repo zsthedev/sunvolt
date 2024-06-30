@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import LocomotiveScroll from "locomotive-scroll";
 import ProductDetails from "./pages/ProductDetails";
 import Footer from "./pages/Footer";
+import AllProducts from "./pages/AllProducts";
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/products" element={<AllProducts />}></Route>
         <Route path="/product/:id" element={<ProductDetails />}></Route>
       </Routes>
 

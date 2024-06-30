@@ -12,11 +12,11 @@ const Navbar = () => {
       </div>
 
       <div className="nav-links flex items-center gap-8">
-        <Link className="text-dark_gray font-poppins hover:text-blue hover:ease-linear hover:duration-200">
+        <Link to={"/"} className="text-dark_gray font-poppins hover:text-blue hover:ease-linear hover:duration-200">
           Home
         </Link>
 
-        <Link className="text-dark_gray font-poppins hover:text-blue hover:ease-linear hover:duration-200">
+        <Link to={"/products"} className="text-dark_gray font-poppins hover:text-blue hover:ease-linear hover:duration-200">
           Products
         </Link>
       </div>

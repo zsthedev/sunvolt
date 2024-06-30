@@ -8,24 +8,26 @@ const ProductDetails = () => {
 
   return (
     <section className="w-full px-8 h-screen">
-      <div className="container w-full mt-[150px] h-[80vh] flex justify-between items-center">
-        <div className="image-col w-[49%] h-full">
+      <div className="container w-full mt-[150px] h-auto flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="image-col w-full md:w-[49%] h-full">
           <img
             src={selectedProduct.mainImage}
             alt=""
-            className="w-full bg-zinc-200 h-[80vh] rounded-lg object-contain object-center"
+            className="w-full bg-zinc-200 h-[60vh] md:h-[80vh] rounded-lg object-contain object-center"
           />
         </div>
 
-        <div className="prod-desc w-[45%] h-full text-center flex flex-col gap-2">
-          <span className="font-poppins text-orange font-base">
+        <div className="prod-desc w-full md:w-[45%] h-full text-center md:text-left flex flex-col gap-4">
+          <span className="font-poppins text-orange text-base">
             {selectedProduct.brand}
           </span>
-          <p className="name font-poppins text-4xl font-semibold text-black">{selectedProduct.name}</p>
-          <p className="name font-xl text-dark_gray font-poppins">
+          <p className="name font-poppins text-2xl md:text-4xl font-semibold text-black">
+            {selectedProduct.name}
+          </p>
+          <p className="description text-lg md:text-xl text-dark_gray font-poppins">
             {selectedProduct.description}
           </p>
-          <p className="name text-blue font-poppins font-semibold text-3xl">
+          <p className="price text-blue font-poppins font-semibold text-2xl md:text-3xl">
             PKR {selectedProduct.price}
           </p>
         </div>

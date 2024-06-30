@@ -7,17 +7,17 @@ const Home = () => {
   return (
     <>
       <div className="p-8">
-        <div className="mt-20 text-container flex justify-between items-center">
-          <h1 className="text-6xl font-poppins text-black w-[75%] leading-tight">
+        <div className="mt-20 text-container flex flex-col lg:flex-row justify-between items-center">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-poppins text-black w-full lg:w-[75%] leading-tight">
             Empower your home with sustainable energy solutions. Harness the
-            power of the sun with our cutting-edge solar panels. 
+            power of the sun with our cutting-edge solar panels.
           </h1>
 
-          <div className="w-[25%] flex flex-col">
-            <p className="text-lg font-poppins text-dark_gray mb-5 font-[400]">
+          <div className="w-full lg:w-[25%] flex flex-col mt-8 lg:mt-0">
+            <p className="text-base md:text-lg font-poppins text-dark_gray mb-5 font-[400]">
               Welcome to Sunvolt power solutions Harnessing Clean Energy for a
               Sustainable Future. Explore our cutting-edge solar panels designed
-              to power your world efficiently and sustainably
+              to power your world efficiently and sustainably.
             </p>
 
             <Link className="w-[180px] h-[50px] border px-8 py-4 rounded-full font-poppins flex justify-center items-center hover:bg-blue hover:border-none hover:text-white hover:ease-linear hover:duration-300">
@@ -25,7 +25,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="videos-container w-full flex justify-between items-center bg-red-400 h-[600px] mt-10 rounded-lg overflow-hidden">
+        <div className="videos-container w-full flex justify-between items-center bg-red-400 h-[300px] md:h-[400px] lg:h-[600px] mt-10 rounded-lg overflow-hidden">
           <video
             className="w-full h-full object-cover object-center"
             autoPlay
